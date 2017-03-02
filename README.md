@@ -14,8 +14,9 @@ The Pattern Lab StarterKit for Mustache requires the following PatternEngine:
 
 This StarterKit can be installed with the following command:
 
+```shell
 gulp patternlab:loadstarterkit --kit=patternlab-starterkit-mustache --clean=true
-
+```
 
 ## Edit Files
 
