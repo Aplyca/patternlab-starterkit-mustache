@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }}">
+    <head>
+        <title>{{ title }}</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="{{ author }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" href="../../images/favicon.ico" type='image/x-icon'>
+
+        <!-- External CSS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.css.external}}
+            <link rel="stylesheet" href="https://{{& .}}" media="all" type="text/css" crossorigin="anonymous">
+        {{/assets.css.external}}
+
+        <!-- Vendor CSS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.css.vendor}}
+            <link rel="stylesheet" href="../../vendor/{{& .}}" media="all" type="text/css">
+        {{/assets.css.vendor}}
+
+        <!-- Components CSS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.css.components}}
+            <link rel="stylesheet" href="../../components/{{& .}}" media="all" type="text/css">
+        {{/assets.css.components}}
+
+        <!-- App CSS -->
+        <link rel="stylesheet" href="../../css/{{ appName }}.css?{{ cacheBuster }}" media="all" type="text/css">
+
+        <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+        {{{ patternLabHead }}}
+        <!-- End Pattern Lab -->
+    </head>
+<body class="{{ bodyClass }}">

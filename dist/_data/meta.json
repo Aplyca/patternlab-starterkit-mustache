@@ -1,0 +1,24 @@
+{
+	"title" : "Aplyca Pattern Lab",
+	"author": "Aplyca",
+	"appName": "patternlab-frontend",
+	"imagePlaceholder": "lorempixel.com",
+	"assets": {
+		"css": {
+			"external": [
+				"fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i",
+				"cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css"
+			],
+			"vendor": [],
+			"components": []
+		},
+		"js": {
+			"external": [
+				"cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+				"cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"
+			],
+			"vendor": [],
+			"components": []
+		}
+	}
+}

@@ -1,0 +1,25 @@
+        <!-- External JS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.js.external}}
+            <script src="https://{{& .}}" crossorigin="anonymous"></script>
+        {{/assets.js.external}}
+
+        <!-- Vendor JS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.js.vendor}}
+            <script src="../../vendor/{{& .}}"></script>
+        {{/assets.js.vendor}}
+
+        <!-- Components JS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.js.components}}
+            <script src="../../components/{{& .}}"></script>
+        {{/assets.js.components}}
+
+        <!-- App JS -->
+        <script src="../../js/{{appName}}.js"></script>
+
+        <!--DO NOT REMOVE-->
+        {{{ patternLabFoot }}}
+    </body>
+</html>
