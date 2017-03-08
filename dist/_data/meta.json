@@ -1,7 +1,7 @@
 {
 	"title" : "Aplyca Pattern Lab",
 	"author": "Aplyca",
-	"appName": "patternlab-frontend",
+	"appName": "app",
 	"imagePlaceholder": "lorempixel.com",
 	"assets": {
 		"css": {
