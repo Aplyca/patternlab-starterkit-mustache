@@ -29,6 +29,12 @@
         <!-- App CSS -->
         <link rel="stylesheet" href="../../css/{{ appName }}.css?{{ cacheBuster }}" media="all" type="text/css">
 
+        <!-- Head JS -->
+        {{! Configured in _data/meta.json }}
+        {{#assets.js.head}}
+            <script src="https://{{& .}}"></script>
+        {{/assets.js.head}}
+
         <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
         {{{ patternLabHead }}}
         <!-- End Pattern Lab -->
