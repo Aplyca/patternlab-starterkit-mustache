@@ -6,23 +6,21 @@
 	"assets": {
 		"css": {
 			"external": [
-				"fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i",
-				"cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css",
-				"cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+				"cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
 			],
 			"vendor": [],
 			"components": []
 		},
 		"js": {
-			"external": [
-				"cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
-				"cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"
-			],
-			"vendor": [],
-			"components": [],
 			"head": [
 				"cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-			]
+			],			
+			"external": [
+				"cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js",
+				"cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
+			],
+			"vendor": [],
+			"components": []
 		}
 	}
 }
