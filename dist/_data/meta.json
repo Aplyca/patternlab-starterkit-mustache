@@ -6,18 +6,16 @@
 	"assets": {
 		"css": {
 			"external": [
-				"cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+				{ "url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css", "description": "Bootstrap framework CSS" }
 			],
 			"vendor": [],
 			"components": []
 		},
 		"js": {
-			"head": [
-				"cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-			],			
+			"head": [],
 			"external": [
-				"cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js",
-				"cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
+				{ "url": "cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js", "description": "JQuery Slim framework for DOM manipulation" }
+				{ "url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js", "description": "Bootstrap framework JS" }
 			],
 			"vendor": [],
 			"components": []
