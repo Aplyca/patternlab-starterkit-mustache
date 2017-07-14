@@ -1,21 +1,21 @@
         <!-- External JS -->
         {{! Configured in _data/meta.json }}
         {{#assets.js.external}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <script src="https://{{& url}}"></script>
         {{/assets.js.external}}
 
         <!-- Vendor JS -->
         {{! Configured in _data/meta.json }}
         {{#assets.js.vendor}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <script src="../../vendor/{{& url}}"></script>
         {{/assets.js.vendor}}
 
         <!-- Components JS -->
         {{! Configured in _data/meta.json }}
         {{#assets.js.components}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <script src="../../components/{{& url}}"></script>
         {{/assets.js.components}}
 

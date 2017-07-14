@@ -14,21 +14,21 @@
         <!-- External CSS -->
         {{! Configured in _data/meta.json }}
         {{#assets.css.external}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <link rel="stylesheet" href="https://{{& url}}" media="all" type="text/css">
         {{/assets.css.external}}
 
         <!-- Vendor CSS -->
         {{! Configured in _data/meta.json }}
         {{#assets.css.vendor}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <link rel="stylesheet" href="../../vendor/{{& url}}" media="all" type="text/css">
         {{/assets.css.vendor}}
 
         <!-- Components CSS -->
         {{! Configured in _data/meta.json }}
         {{#assets.css.components}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <link rel="stylesheet" href="../../components/{{& url}}" media="all" type="text/css">
         {{/assets.css.components}}
 
@@ -39,7 +39,7 @@
         <!-- Head JS -->
         {{! Configured in _data/meta.json }}
         {{#assets.js.head}}
-            <!-- {{description}} -->
+            <!-- {{& description}} -->
             <script src="https://{{& url}}"></script>
         {{/assets.js.head}}
 
