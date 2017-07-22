@@ -8,16 +8,16 @@
 			"external": [
 				{ "url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css", "description": "Bootstrap framework CSS" }
 			],
-			"vendor": [],
+			"modules": [],
 			"components": []
 		},
 		"js": {
 			"head": [],
 			"external": [
-				{ "url": "cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js", "description": "JQuery Slim framework for DOM manipulation" }
+				{ "url": "cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js", "description": "JQuery Slim framework for DOM manipulation" },
 				{ "url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js", "description": "Bootstrap framework JS" }
 			],
-			"vendor": [],
+			"modules": [],
 			"components": []
 		}
 	}

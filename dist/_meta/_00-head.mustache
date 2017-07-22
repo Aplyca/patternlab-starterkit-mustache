@@ -18,12 +18,12 @@
             <link rel="stylesheet" href="https://{{& url}}" media="all" type="text/css">
         {{/assets.css.external}}
 
-        <!-- Vendor CSS -->
+        <!-- Modules CSS -->
         {{! Configured in _data/meta.json }}
-        {{#assets.css.vendor}}
+        {{#assets.css.modules}}
             <!-- {{& description}} -->
-            <link rel="stylesheet" href="../../vendor/{{& url}}" media="all" type="text/css">
-        {{/assets.css.vendor}}
+            <link rel="stylesheet" href="../../node_modules/{{& url}}" media="all" type="text/css">
+        {{/assets.css.modules}}
 
         <!-- Components CSS -->
         {{! Configured in _data/meta.json }}
