@@ -1,6 +1,6 @@
 {
   "name": "patternlab-starterkit-mustache",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The Mustache-based StarterKit for Pattern Lab.",
   "main": "README.md",
   "repository": {
