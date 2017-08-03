@@ -1,27 +1,31 @@
 {
-  "name": "patternlab-starterkit-mustache",
-  "version": "0.0.7",
-  "description": "The Mustache-based StarterKit for Pattern Lab.",
-  "main": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aplyca/patternlab-starterkit-mustache"
-  },
-  "keywords": [
-    "Pattern Lab",
-    "Atomic Design",
-    "Mustache",
-    "Demo",
-    "Starterkit"
-  ],
-  "author": "Mauricio Sánchez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Aplyca/patternlab-starterkit-mustache/issues"
-  },
-  "homepage": "https://github.com/Aplyca/patternlab-starterkit-mustache#readme",
-  "dependencies": {
-    "styleguidekit-assets-default": "*",
-    "styleguidekit-mustache-default": "*"
-  }
+	"name": "patternlab-starterkit-mustache",
+	"version": "0.0.7",
+	"description": "The Mustache-based StarterKit for Pattern Lab.",
+	"main": "README.md",
+	"homepage": "https://github.com/Aplyca/patternlab-starterkit-mustache#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Aplyca/patternlab-starterkit-mustache"
+	},
+	"keywords": [
+		"Pattern Lab",
+		"Atomic Design",
+		"Mustache",
+		"Demo",
+		"Starterkit"
+	],
+	"author": "Mauricio Sánchez",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Aplyca/patternlab-starterkit-mustache/issues"
+	},
+	"dependencies": {
+		"styleguidekit-assets-default": "*",
+		"styleguidekit-mustache-default": "*"
+	},
+	"engines": {
+		"node": "~8",
+		"npm": "~5.3"
+	}
 }
