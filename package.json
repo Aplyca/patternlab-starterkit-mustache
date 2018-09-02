@@ -25,7 +25,7 @@
 		"styleguidekit-mustache-default": "*"
 	},
 	"engines": {
-		"node": "~8",
-		"npm": "~5.3"
+		"node": "~10",
+		"npm": "~6"
 	}
 }

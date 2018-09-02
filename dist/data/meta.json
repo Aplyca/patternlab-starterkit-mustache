@@ -1,0 +1,46 @@
+{
+	"title": "Pattern Lab StarterKit for Mustache",
+	"appName": "bundle",
+	"imagePlaceholder": "lorempixel.com",
+	"meta": [{
+		"attribute": "name",
+		"value": "author",
+		"content": "Aplyca"
+	}, {
+		"attribute": "name",
+		"value": "viewport",
+		"content": "width=device-width, initial-scale=1.0"
+	}, {
+		"attribute": "name",
+		"value": "description",
+		"content": "Pattern Lab StarterKit for Mustache"
+	}, {
+		"attribute": "name",
+		"value": "robots",
+		"content": "noindex, nofollow"
+	}],
+	"assets": {
+		"css": {
+			"external": [{
+				"url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css",
+				"description": "Bootstrap framework CSS"
+			}],
+			"modules": [],
+			"components": []
+		},
+		"js": {
+			"head": [],
+			"external": [{
+					"url": "cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js",
+					"description": "JQuery Slim framework for DOM manipulation"
+				},
+				{
+					"url": "cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js",
+					"description": "Bootstrap framework JS"
+				}
+			],
+			"modules": [],
+			"components": []
+		}
+	}
+}

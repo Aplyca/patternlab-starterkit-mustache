@@ -1,4 +1,11 @@
+# Ignore everithing
+/*
+
+# Ingoned unnecessary files
+*.gz
+*.tgz
 .DS_Store
-dist/css/.sass-cache
-dist/css/style.css.map
-yarn-error.log
+*~
+
+# Track source files
+!/dist

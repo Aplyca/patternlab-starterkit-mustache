@@ -20,4 +20,4 @@ gulp patternlab:loadstarterkit --kit=patternlab-starterkit-mustache --clean=true
 
 ## Edit Files
 
-After installation the files for this StarterKit can be found in `source/`.
+After installation the files for this StarterKit can be found in `src/`.
