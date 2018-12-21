@@ -1,6 +1,6 @@
 {
 	"name": "patternlab-starterkit-mustache",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The Mustache-based StarterKit for Pattern Lab.",
 	"main": "README.md",
 	"homepage": "https://github.com/Aplyca/patternlab-starterkit-mustache#readme",
