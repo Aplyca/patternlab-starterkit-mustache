@@ -23,9 +23,5 @@
 	"dependencies": {
 		"styleguidekit-assets-default": "*",
 		"styleguidekit-mustache-default": "*"
-	},
-	"engines": {
-		"node": "~10",
-		"npm": "~6"
 	}
 }
